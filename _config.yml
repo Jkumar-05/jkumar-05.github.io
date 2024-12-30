@@ -4,3 +4,5 @@ description: Aspiring Software Engineer
 
 theme: jekyll-theme-minimal
 
+<link rel="stylesheet" href="/docs/styles.css">
+
