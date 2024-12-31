@@ -1,4 +1,7 @@
-# jkumar-05.github.io
+# Jatin Kummar
+
+# About
+## Hi there! I’m an aspiring software engineer passionate about creating impactful and innovative solutions. Currently, I’m gaining valuable experience as an intern for a fitness app, where I’m learning the ropes and building my skills. As a second-year college student, I’m driven by my love for coding and the excitement of continuous growth.
 
 ## Projects
 
