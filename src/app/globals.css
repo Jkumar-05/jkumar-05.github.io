@@ -2,12 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-
+:root {
+  --background: #ffffff; /* Light mode background */
+  --foreground: #000000; /* Light mode foreground */
+}
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #000000; /* Dark mode background */
-    --foreground: #000000; /* Dark mode foreground */
+    --foreground: #ffffff; /* Dark mode foreground (white for readability) */
   }
 }
 
@@ -16,5 +19,6 @@ body {
   background: var(--background); /* Use the correct background variable */
   font-family: Arial, Helvetica, sans-serif;
 }
+
 
 
