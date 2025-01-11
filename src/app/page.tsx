@@ -10,11 +10,11 @@ import { faGit } from "@fortawesome/free-brands-svg-icons";
 export default function HomePage () {
   return(
     <>
-    <div style={{
-      background: "radial-gradient(600px at 512px 413px, rgba(29, 78, 216, 0.5), transparent 80%)",
-      //backgroundColor: "teal",
-      height: "100vh"
-    }}>
+<div style={{
+    background: "radial-gradient(600px at 512px 413px, rgba(29, 78, 216, 0.5), transparent 80%)",
+    height: "100vh"
+}}>
+    
   <h1 style={{
     color: "whitesmoke", 
     fontSize : "50px", 
@@ -110,6 +110,8 @@ export default function HomePage () {
   bottom: "10px",
   left: '80px'}}></FontAwesomeIcon>
 </a>
+
+
 
 
 </div>
