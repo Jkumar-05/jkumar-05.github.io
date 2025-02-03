@@ -64,7 +64,7 @@ export default function HomePage () {
   </p>
 <br></br>
   <p>
-    Currently, I'm a Software Engineering Intern at BawsHuman, contributing to the development of a fitness app.
+    Currently, I am a Software Engineering Intern at BawsHuman, contributing to the development of a fitness app.
     My focus is on writing clean, maintainable code and improving system performance to deliver a seamless user experience.
   </p>
 <br></br>
