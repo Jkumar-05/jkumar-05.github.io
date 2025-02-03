@@ -94,6 +94,7 @@ left: "20px" }}>
     width={300}
     height={300}
     alt="Description of the image"
+    
   
   />
 </div>
