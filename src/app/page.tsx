@@ -1,9 +1,11 @@
+"use client";
 //import { abort } from "process";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import { faGit } from "@fortawesome/free-brands-svg-icons";
-//import photo from "...public/photo.jpeg"
+import { useRef } from "react";
+import { width } from "@fortawesome/free-brands-svg-icons/fa42Group";
 
 
 
@@ -11,16 +13,25 @@ export default function HomePage () {
   return(
     <>
 <div style={{
-    background: "radial-gradient(600px at 512px 413px, rgba(29, 78, 216, 0.5), transparent 80%)",
-height: "100vh" 
-} 
-   }
+     background: "radial-gradient(600px at 1087px 190px, rgba(29, 100, 216, 0.5), transparent 80%)",
+     height: "100vh",
+     display: "flex"
+} }
+   
    >
-    
+    <div style={{
+    background: "radial-gradient(600px at 1087px 190px, rgba(29, 100, 216, 0.5), transparent 80%)",
+    height: "100vh",
+    display: "flex"
+}}></div>
+
+
+  
+
   <h1 style={{
     color: "whitesmoke", 
     fontSize : "50px", 
-    position: "absolute",
+    position: "absolute", 
     left: "30px",
     top: "67.5px",
     fontFamily: "Montserrat"}}>
@@ -35,45 +46,62 @@ height: "100vh"
     fontFamily: "Lora",}}>
       Future Software Engineer
     </h2>
-{/*
-    <h2 style = {{
-      position: "absolute",
-      top: "100px",
-      right: "100px", 
-      color: "royalblue", fontSize: "40px", textAlign: "center"}}>About</h2>
-    */}
-    <p style = {{
-      position: "absolute",
-      top: "85px",
-      right: "20px",
-      color: 'whitesmoke',
-      fontSize: "20px", 
-      maxWidth: "700px"
-    }}>
-    
-    
-    Hello, my name is Jatin Kumar, and I am an  aspiring software engineer with a 
-     strong passion for developing impactful and innovative solutions. Currently, 
-     I am gaining valuable experience as an  intern at a fitness app company called 
-     BawsHuman, where I am learning the ins and outs of the industry.
-    <br></br>
-    <br></br>
-    As a second-year college student, I am deeply motivated by my enthusiasm for coding 
-     and the continuous opportunity for growth in this dynamic field. I am committed to honing my  
-     craft and contributing meaningfully to projects that drive progress and change.
-     </p>
-    
-    {/*
-    <div style = {{ position: "relative", height: "500px"}}>
-     <Image 
-      src="/replacePhoto.png"  // Path is relative to the public folder
-      alt="Description of the image"
-      width={300}
-      height={300}
-      style={{position: "absolute", top: "2px", right: "100px", border: "10px solid royalblue"}}
-    />
-      </div>
-  */}
+
+    <div
+  style={{
+    position: "absolute",
+    top: "85px",
+    right: "100px",
+    color: "whitesmoke",
+    fontSize: "20px",
+    maxWidth: "700px",
+  }}
+>
+  <p>
+    I’m a developer passionate about building intelligent, efficient, and scalable software systems.
+    My interests lie at the intersection of AI, data science, and software engineering, where I aim to create 
+    innovative solutions that enhance automation and decision-making.
+  </p>
+<br></br>
+  <p>
+    Currently, I'm a Software Engineering Intern at BawsHuman, contributing to the development of a fitness app.
+    My focus is on writing clean, maintainable code and improving system performance to deliver a seamless user experience.
+  </p>
+<br></br>
+  <p>
+    As a computer science student at Ohlone College, I’ve built projects in C++, Python, and Next.js, collaborating 
+    with teams to develop software solutions assigned by my professors. I also have experience tutoring peers in STEM 
+    subjects, reinforcing my understanding of complex concepts while helping others succeed.
+  </p>
+<br></br>
+  <p>
+    My long-term goal is to work in Silicon Valley’s tech industry, specializing in AI-driven software and robotic automation. 
+    I’m continuously learning, experimenting with new technologies, and refining my skills to contribute meaningfully to the 
+    future of AI.
+  </p>
+<br></br>
+  <p>
+    In my spare time, I’m either reading, working out, or diving into psychology and AI research.
+  </p>
+</div>
+
+<div style={{ maxWidth: "100%", maxHeight: "500px", overflow: "hidden",
+position:"absolute",
+top: "175px",
+left: "20px" }}>
+  <Image
+    src="/replacePhoto.png"
+    width={300}
+    height={300}
+    alt="Description of the image"
+  
+  />
+</div>
+
+
+   
+ 
+ 
  
 
     <a href = "https://drive.google.com/file/d/1VSKx2pYx44PIbchwcF8e2--Lo1QZcCDv/view" target = "blank"
@@ -87,7 +115,7 @@ height: "100vh"
     fontSize: "30px",
     fontWeight: "bold",
     position: "absolute",
-    top: "350px",
+    top: "600px",
     left: "30px"
       
   }}
@@ -96,7 +124,7 @@ height: "100vh"
 
 <a href ="https://www.linkedin.com/in/jatin-kumar-5b79672a4/" target="_blank" >
   <FontAwesomeIcon icon={faLinkedin} size="xs" color="grey" 
-  style={{fontSize:"10px",
+  style={{fontSize:"30px",
   maxWidth: "30px",
   position: "absolute",
   bottom: "10px",
@@ -106,12 +134,14 @@ height: "100vh"
 
 <a href="https://github.com/Jkumar-05" target="_blank">
   <FontAwesomeIcon icon={faGit} size="xs" color="grey"
-  style={{fontSize:"10px",
+  style={{fontSize:"30px",
   maxWidth: "30px",
   position: "absolute",
   bottom: "10px",
   left: '80px'}}></FontAwesomeIcon>
 </a>
+
+
 
 
 
