@@ -58,32 +58,38 @@ export default function HomePage () {
   }}
 >
   <p>
-    I’m a developer passionate about building intelligent, efficient, and scalable software systems.
+  
+  I’m a developer passionate about building intelligent, efficient, and scalable software systems.
     My interests lie at the intersection of AI, data science, and software engineering, where I aim to create 
     innovative solutions that enhance automation and decision-making.
   </p>
 <br></br>
   <p>
-    Currently, I am a Software Engineering Intern at BawsHuman, contributing to the development of a fitness app.
+   
+  Currently, I am a Software Engineering Intern at BawsHuman, contributing to the development of a fitness app.
     My focus is on writing clean, maintainable code and improving system performance to deliver a seamless user experience.
   </p>
 <br></br>
   <p>
-    As a computer science student at Ohlone College, I’ve built projects in C++, Python, and Next.js, collaborating 
+  
+  As a computer science student at Ohlone College, I’ve built projects in C++, Python, and Next.js, collaborating 
     with teams to develop software solutions assigned by my professors. I also have experience tutoring peers in STEM 
     subjects, reinforcing my understanding of complex concepts while helping others succeed.
   </p>
 <br></br>
   <p>
-    My long-term goal is to work in Silicon Valley’s tech industry, specializing in AI-driven software and robotic automation. 
+  
+  My long-term goal is to work in Silicon Valley’s tech industry, specializing in AI-driven software and robotic automation. 
     I’m continuously learning, experimenting with new technologies, and refining my skills to contribute meaningfully to the 
     future of AI.
   </p>
 <br></br>
   <p>
-    In my spare time, I’m either reading, working out, or diving into psychology and AI research.
+   
+  In my spare time, I’m either reading, working out, or diving into psychology and AI research.
   </p>
 </div>
+
 
 <div style={{ maxWidth: "100%", maxHeight: "500px", overflow: "hidden",
 position:"absolute",
@@ -118,7 +124,6 @@ left: "20px" }}>
     position: "absolute",
     top: "600px",
     left: "30px"
-      
   }}
     >Resume</a>
 
