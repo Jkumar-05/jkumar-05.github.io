@@ -1,0 +1,4 @@
+export const images = {
+    myPhoto:
+    "/Users/jatinkumar/Pictures/Photos Library.photoslibrary/resources/derivatives/2/240E23FF-DAE0-44CE-9614-9E061BB7C0E5_1_105_c.jpeg"
+};
